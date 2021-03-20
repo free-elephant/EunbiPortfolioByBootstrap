@@ -17,14 +17,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg"
-                    alt="" /></a>
+            <a class="ColorGray navbar-brand js-scroll-trigger " href="#page-top">Free Elephant</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,11 +35,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Strength</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Timeline</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -45,45 +47,79 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Welcome To Our Studio!</div>
-            <div class="masthead-heading text-uppercase">I'm Eunbi</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
+            <div class="masthead-heading text-uppercase">I'm Free Elephant</div>
+            <div class="masthead-subheading"
+                style="margin-bottom:0;font-family: 'Gothic A1', sans-serif;font-weight:bold; ">Free
+                Elephant is ...</div>
+            <div class="masthead-subheading"
+                style="font-size: 20px; margin-bottom:1rem;font-family: 'Gothic A1', sans-serif; font-weight:bold; ">
+                <div style="background-color:rgb(100, 94, 102); display:inline-block; opacity: 0.7;">
+                    서커스단에서 줄에 묶여 큰 코끼리는
+                    다 자란 후에도
+                    줄을 끊지 못한다고 합니다.
+                </div>
+                <br>
+                <div class="masthead-subheading"
+                    style="font-size: 20px; margin-bottom:0; font-family: 'Gothic A1', sans-serif; background-color:rgb(100, 94, 102); display:inline-block; opacity: 0.7; ">
+                    코끼리에게 줄은 "자신이 절대 끊을 수
+                    없는 것"이
+                    되어 버려 끊으려는 시도조차 하지 않는 것이죠.</div>
+                <br>
+                <div class="masthead-subheading"
+                    style="font-size: 20px; margin-bottom:0; font-family: 'Gothic A1', sans-serif; background-color:rgb(100, 94, 102); display:inline-block; opacity: 0.7;">
+                    우리는 종종 자신의 한계를 긋고
+                    행동하곤 합니다.
+                </div>
+                <br>
+                <div class="masthead-subheading"
+                    style="font-size: 20px; margin-bottom:1.5rem; font-family: 'Gothic A1', sans-serif; background-color:rgb(100, 94, 102); display:inline-block; opacity: 0.7;">
+                    저는 자유로운 코끼리가 되어
+                    저의 한계를
+                    짓지
+                    않고
+                    살아가고 싶습니다.</div>
+                <br>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">My strength</a>
+            </div>
     </header>
     <!-- Services-->
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Strength</h2>
+                <h3 class="section-subheading text-muted">Amem quod habeo</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <h4 class="my-3">개발 경력 및<br> 기술 수업 진행 경력</h4>
+                    <p class="text-muted">3년 동안 코딩 동아리를 운영하며 약 60명의 학생을 가르치고, 기술 블로그 운영</p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-edit fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <h4 class="my-3">논리적인 표현 능력</h4>
+                    <br>
+                    <p class="text-muted">성인 및 키즈 스피치 강사로 활동하며 특정 주제에 대해 논리적으로 표현하는 능력 강화</p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <h4 class="my-3">직접 만든<br> 동아리 운영 경력</h4>
+                    <p class="text-muted">관심있는 분야가 생기면 직접 동아리를 만들어 공부하고 도전 - 스피치, 독서, 코딩 동아리를 직접 운영 </p>
                 </div>
             </div>
         </div>
@@ -91,6 +127,115 @@
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Timeline</h2>
+                <h3 class="section-subheading text-muted">Abracadabra</h3>
+            </div>
+            <ul class="timeline">
+
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2007~현재</h4>
+                            <h4 class="subheading">판타지 소설 덕후</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">소설 덕후 경력 15년차, 덕분에 상상의 한계가 없는 편이다. 이는 작은 가능성을 보고도 성장할 미래를 그릴 수
+                                있는
+                                초석이 되었다.
+                                <br>ex)VR을 통한 가상세계
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2016-현재</h4>
+                            <h4 class="subheading">블로그 글쓰기</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">독서 후기에서 시작하여 경제, 기술관련 블로그까지 쓰며 글쓰기 능력이 꾸준히 향상되었다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2016-2018</h4>
+                            <h4 class="subheading">스피치 클럽 운영</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">성인 대상으로 스피치 클럽을 열어, 매주 주제에 맞춰 발표하며 핵심 요약 능력을 향상시켰다. 이 경력을 통해 스피치학원에서
+                                강사로 활동했다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2018~2020</h4>
+                            <h4 class="subheading">'멋쟁이 사자처럼' 코딩 동아리</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>December 2012</h4>
+                            <h4 class="subheading">Transition to Full Service</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                            alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>July 2014</h4>
+                            <h4 class="subheading">Phase Two Expansion</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            Be Part
+                            <br />
+                            Of Our
+                            <br />
+                            Story!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Portfolio</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -181,221 +326,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
     <!-- About-->
     <section class="page-section" id="about">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>December 2012</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>July 2014</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Be Part
-                            <br />
-                            Of Our
-                            <br />
-                            Story!
-                        </h4>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        jhjkkj
     </section>
-    <!-- Team-->
-    <section class="page-section bg-light" id="team">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                        <h4>Diana Petersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients-->
-    <div class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg"
-                            alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg"
-                            alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg"
-                            alt="" /></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                required="required" data-validation-required-message="Please enter your name." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                required="required"
-                                data-validation-required-message="Please enter your email address." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                required="required"
-                                data-validation-required-message="Please enter your phone number." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required"
-                                data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send
-                        Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Privacy Policy</a>
-                    <a href="#!">Terms of Use</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Portfolio Modals-->
+
     <!-- Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -407,21 +344,81 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
+                                <h2 class="text-uppercase">개발 경력 및<br> 기술 수업 진행 경력</h2>
+                                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <br>
+                                <!-- <div style="display: flex; width:100%;">
+                                    <img src="climbing.jpg" alt="" style="width:48%;" />
+                                    <div style="width:4%;"></div>
+                                    <img src="climbing.jpg" alt="" style="width:48%;" />
+                                </div> -->
+                                <br>
+                                <div style="display: flex; width:100%;">
+                                    <div style="width:48%;">
+                                        <h3>웹 코딩 및 IOT 프로젝트 개발 경력</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+                                            <h5>1. 웹 서비스 프로젝트 진행</h5>
+                                            <p style="margin-bottom: 0;"> 1) 상담 커뮤니티 '소근소근'</p>
+                                            <p>
+                                                - 서비스 설명: 누구나 고민을 말하고 누구나 고민을 들어줄 수 있는 커뮤니티 서비스
+                                                <br>
+                                                - 역할: 기획, UI UX 디자인, 프런트
+                                                <br>
+                                                <a href="http://sogunsogun.herokuapp.com/">- 구현 화면을 보고 싶다면 클릭해주세요:D</a>
+                                            </p>
+                                            <p style="margin-bottom: 0;"> 2) 일반인 택배 서비스 '퍼플'</p>
+                                            <p>
+                                                - 서비스 설명: 물건을 보내고 싶은 개인과 물건을 배달하고 싶은 개인을 연결해주는 일반인 택배 서비스 플랫폼
+                                                <br>
+                                                - 역할: 기획, 프런트 백 코딩
+                                                <br>
+                                                <a href="https://sleepy-lowlands-09559.herokuapp.com/">- 구현 화면을 보고 싶다면
+                                                    클릭해주세요:D</a>
+                                            </p>
+
+                                            <h5>2. 6개월간 AI 수업 및 IOT 프로젝트</h5>
+                                            <p style="margin-bottom: 0;"> 포스텍 AI 수업 및 IOT 프로젝트</p>
+                                            <p>
+                                                - 6개월 간 AI, IOT, 빅데이터 관련한 기초이론 수업 진행
+                                                <br>
+                                                - 카트 앞에 카메라가 사람의 뒷모습을 인식하여 따라가게 하는 IOT 프로젝트
+                                                <br>
+                                                - 역할: 카트 속도 조절 코드 작성 및 Tracking 오픈소스 변형
+                                                <br>
+                                                <a href="">- 구현 화면을 보고 싶다면 클릭해주세요:D</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div style="width:4%;"></div>
+                                    <div style="width:48%;">
+                                        <h3>코딩 수업 진행 등 핵심을 요약할 수 있는 능력 </h3>
+                                        <br>
+                                        <div style="text-align: left;">
+                                            <h5>1. 기술 설명 블로그 운영</h5>
+                                            <p>
+                                                - html,css,파이썬,쟝고 등 프로그래밍 언어에 관련하여 쉽게 설명
+
+                                                <br>
+
+                                                <a href="https://free-eunb.tistory.com/">- 해당 블로그를 보고 싶다면 클릭해주세요:D</a>
+                                            </p>
+
+                                            <h5>2. 비전공자 대상 멋사 수업 진행</h5>
+                                            <p style="margin-bottom: 0;">
+
+                                                - 약 3년간 html,css을 포함한 웹을 만들 수 있는 언어에 관한 수업을 진행하여, 스스로 웹 페이지를 만들 수 있도록
+                                                가르침
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    닫기
                                 </button>
                             </div>
                         </div>
@@ -441,21 +438,49 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
+                                <h2 class="text-uppercase">논리적인 표현 능력</h2>
+                                <br>
+                                <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" /> -->
+                                <br>
+                                <div style="display: flex; width:100%;">
+                                    <div style="width:48%;">
+                                        <h3>성인 및 키즈 스피치 강사</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+                                            <p style="margin-bottom: 0;">
+                                                - '확성기' 성인 스피치 클럽에서 2년동안 발표
+                                                <br>
+                                                (확성기란? 성인 대상으로 매주 주제에 맞춰 스피치를 하고 피드백해주는 클럽)
+
+                                                <br>
+                                                - 키즈스피치 학원 강사 1년
+                                                <br>
+
+                                                - 주제에 맞춰 스피치하며 논리력 강화
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div style="width:4%;"></div>
+                                    <div style="width:48%;">
+                                        <h3>독서 후기 및 경제 트렌드관련 글쓰기 등 논리적으로 요약하는 능력</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+
+                                            <p>
+                                                - 읽었던 책 및 영화 줄거리 요약 및 느낀점 글쓰기
+
+                                                <br>
+                                                - 경제 트렌드관련하여 주제를 잡아 핵심을 요약하는 글쓰기
+                                                <br>
+                                                <a href="https://blog.naver.com/aldls8811">- 해당 블로그를 보고 싶다면 클릭해주세요:D</a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    닫기
                                 </button>
                             </div>
                         </div>
@@ -475,21 +500,50 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
+                                <h2 class="text-uppercase">다양한 동아리 운영 능력</h2>
+                                <br><br>
+                                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <div style="display: flex; width:100%;">
+                                    <div style="width:32%;">
+                                        <h3>'확성기' 성인 스피치 클럽 <br>2년 운영</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+
+                                            <p style="margin-bottom: 0;">
+                                                - 확성기란? 성인 대상으로 매주 주제에 맞춰 스피치를 하고 피드백해주는 클럽
+
+                                                <br>
+                                                - 주제 기획 및 스피치 피드백
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div style="width:2%;"></div>
+                                    <div style="width:32%;">
+                                        <h3>온오프라인 <br> 독서모임 운영</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+
+                                            <p>
+                                                - 약 6개월간 매주 책관련 과제를 내주며 모바일 독서모임 운영
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div style="width:2%;"></div>
+                                    <div style="width:32%;">
+                                        <h3>'멋쟁이사자처럼' <br> 코딩 동아리 운영</h3>
+                                        <br>
+                                        <div style="text-align: left;">
+
+                                            <p>
+                                                - 수업 커리큘럼 기획 및 웹 서비스 아이디어를 만들기 위한 아이디에이션 방법 기획
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    닫기
                                 </button>
                             </div>
                         </div>
@@ -498,108 +552,7 @@
             </div>
         </div>
     </div>
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
