@@ -170,6 +170,12 @@ a {
   background-color: transparent;
   opacity: 1;
 }
+
+/* .NoBackColor img:hover {
+  background-color: rgb(243, 214, 214);
+  text-decoration: underline;
+} */
+
 a:hover {
   color: #d68fe7;
   text-decoration: underline;
