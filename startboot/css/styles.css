@@ -9787,6 +9787,8 @@ button.bg-dark:focus {
 }
 
 
+
+
 a.text-primary:hover, a.text-primary:focus {
   color: rgb(112, 84, 117) !important;
 }
@@ -10493,3 +10495,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
+.FontBold{
+  font-weight:700;
+  color: rgb(165, 71, 71);
+}
