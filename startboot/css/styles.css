@@ -161,6 +161,12 @@ sup {
 a {
   color: #9f6091;
   text-decoration: none;
+  background-color: rgb(243, 214, 214);
+  opacity: 0.7;
+}
+.NoBackColor{
+  color: #9f6091;
+  text-decoration: none;
   background-color: transparent;
 }
 a:hover {
@@ -10497,5 +10503,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .FontBold{
   font-weight:700;
-  color: rgb(165, 71, 71);
+  color: rgb(192, 84, 169);
 }
