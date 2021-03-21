@@ -9788,10 +9788,10 @@ button.bg-dark:focus {
 .text-primary {
   color: rgb(181, 131, 190) !important;
 }
-
+/* 
 .text-primary:hover, a.text-primary:focus {
   color: rgb(112, 84, 117) !important;
-}
+} */
 
 
 
