@@ -168,6 +168,7 @@ a {
   color: #9f6091;
   text-decoration: none;
   background-color: transparent;
+  opacity: 1;
 }
 a:hover {
   color: #d68fe7;
@@ -10504,4 +10505,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 .FontBold{
   font-weight:700;
   color: rgb(192, 84, 169);
+}
+
+
+.FontBoldB{
+  font-weight:700;
+  /* color: rgb(192, 84, 169); */
 }
